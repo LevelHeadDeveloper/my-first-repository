@@ -17,3 +17,7 @@ For those of you looking at this after seeing my other repositories, don't worry
 * How did you make this program maintainable, readable, and adaptable?
     * Say it with me folks! Modularization! Instead of making one large behemoth, I wrote the program in two parts! (Given how small it is, I didn't think it needed more than two.)
 
+# How do I build it?
+
+GCC if you're on Linux. Just drop these files in their own folder and type ```g++ *.cpp -o executable_name && chmod +x executable_name```.
+You Windows users are on your own. Try using MinGW or something.
